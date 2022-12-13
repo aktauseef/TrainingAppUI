@@ -1,0 +1,51 @@
+[
+    {
+      "productId": 3,
+      "productName": "The Ministry of Truth",
+      "productCode": "Book-05478",
+      "releaseDate": "March 23, 2021",
+      "description": "Its an amazing book",
+      "price": 88.99,
+      "starRating": 3.2,
+      "imageUrl": "assets/images/the_ministry_of_truth.jpg"
+    },
+    {
+      "productId": 4,
+      "productName": "Harry Potter",
+      "productCode": "Book-05968",
+      "releaseDate": "March 23, 2010",
+      "description": "Book about harry potter the great magician",
+      "price": 50.99,
+      "starRating": 5.0,
+      "imageUrl": "assets/images/harry_potter.jpg"
+    },
+    {
+      "productId": 10,
+      "productName": "John Green",
+      "productCode": "Book-09698",
+      "releaseDate": "March 23, 2009",
+      "description": "John Green - must read once in ur life",
+      "price": 70.99,
+      "starRating": 3.0,
+      "imageUrl": "assets/images/john-green.jpg"
+    },{
+      "productId": 2,
+      "productName": "Garden Cart",
+      "productCode": "GDN-0023",
+      "releaseDate": "March 18, 2021",
+      "description": "15 gallon capacity rolling garden cart",
+      "price": 32.99,
+      "starRating": 3,
+      "imageUrl": "assets/images/garden_cart.png"
+    },
+    {
+      "productId": 5,
+      "productName": "Hammer",
+      "productCode": "TBX-0048",
+      "releaseDate": "May 21, 2021",
+      "description": "Curved claw steel hammer",
+      "price": 8.9,
+      "starRating": 4.2,
+      "imageUrl": "assets/images/hammer.png"
+    }
+  ]

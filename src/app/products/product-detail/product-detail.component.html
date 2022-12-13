@@ -1,0 +1,30 @@
+<div class="card">
+  <div class="card-header">
+    {{ pageTitle + ": " + product?.productName }}
+  </div>
+  <div class="card-footer">
+    <button
+      class="btn btn-outline-secondary"
+      style="width: 80px"
+      (click)="onBack()"
+    >
+      <em class="fa fa-chevron-left"></em> Back
+    </button>
+  </div>
+  <div class="card-body">
+    <img
+      alt="product?.productName"
+      [src]="product?.imageUrl"
+      width="200px"
+      height="200px"
+    />
+    <div><strong>Product Code : </strong>{{ product?.productCode }}</div>
+    <div><strong>Description : </strong>{{ product?.description }}</div>
+    <div><strong>Price : </strong>{{ product?.price }}</div>
+    <div><strong>Release Date : </strong>{{ product?.releaseDate }}</div>
+    <div>
+      <strong>Star Rating : </strong
+      ><app-star [rating]="product?.starRating || 0"></app-star>
+    </div>
+  </div>
+</div>
