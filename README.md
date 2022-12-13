@@ -1,3 +1,3 @@
 
-# Require other projects like TrainingAppApi & VsDbProject
+# Require other projects like TrainingAppApi & VsDbProject to Run
 
